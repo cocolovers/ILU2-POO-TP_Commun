@@ -12,6 +12,6 @@ public class ReservationRestaurant extends Reservation {
 	
 	public String toString() {
 		return "Le " + jour +"/"+ mois + " : Table " + noTable +
-			" pour le " + noService + "e service";
+			" pour le " + noService + "e service.";
 	}
 }
