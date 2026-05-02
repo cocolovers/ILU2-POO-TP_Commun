@@ -12,5 +12,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry combineaccessrules="false" kind="src" path="/ilu2-ihm-tp4-5-2025-2026-semestre2-groupeb21-cocolovers"/>
+	<classpathentry kind="lib" path="C:/Users/hi/.m2/repository/com/github/lgooddatepicker/LGoodDatePicker/11.2.1/LGoodDatePicker-11.2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

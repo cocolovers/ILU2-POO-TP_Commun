@@ -49,9 +49,8 @@ public class Restaurant implements IEtablissement<FormulaireRestaurant> {
 			} else if (formulaire.getNumService() == 2) {
 				calendrierDeuxiemeService.reserver(formulaire.getJour(), formulaire.getMois());
 			}
-			Reservation reservation = new ReservationRestaurant(formulaire.getJour(),formulaire.getMois(),
+			return new ReservationRestaurant(formulaire.getJour(),formulaire.getMois(),
 					formulaire.getNumService(),getNumero());
-			return reservation;
 		}
 
 	}
